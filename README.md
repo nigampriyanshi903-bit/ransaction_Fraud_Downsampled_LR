@@ -1,6 +1,9 @@
 # Transaction_Fraud_Downsampled_LR
 Financial transaction fraud detection using Imbalanced Classification. Implemented downsampling of the majority class to train Logistic Regression, achieving a high Recall of $0.90$ on the original, imbalanced test set, prioritizing minimized False Negatives (missed fraud)
-
+###  Data Source
+* **Dataset Name:** European Credit Card Fraud Detection Dataset
+* **Source:** [Kaggle Link](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+* **Note:** The dataset contains 284,807 transactions with extreme class imbalance ($0.17\%$ fraud). The features (V1-V28) are a result of PCA for privacy protection.
 **Goal:** To build a reliable model to detect fraudulent credit card transactions, explicitly handling the extreme class imbalance ($<0.2\%$ fraud) and prioritizing **Recall**.
 
 ### Key Methodology
